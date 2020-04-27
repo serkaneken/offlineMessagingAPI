@@ -1,0 +1,23 @@
+{
+  "name": "offlinemessagingapi",
+  "version": "1.0.0",
+  "description": "a simple messaging service for case study",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serkan Eken",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6"
+  }
+}
